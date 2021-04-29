@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Swapping</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <div>
+
+<h1>SWAPPING TWO NUMBERS USING CALL BY VALUE</h1>
+<h1>CLICK THE BELOW BUTTON TO PERFORM SWAPPING</h1>
+<h1>OPEN THE CONSOLE AND CHECK:)</h1>
+<button onclick="myFunction()" style="padding: 10px; margin: 5px;">CLICK HERE</button>
+<script>
+function myFunction() {
+  var num1 = prompt("Enter number a", );
+  var num2 = prompt("Enter number b", );
+  swap(num1,num2);
+  console.log(`The value of a after swapping: ${num1}`);
+  console.log(`The value of b after swapping: ${num2}`);
+  function swap(a,b){
+    var temp;
+    temp=num1;
+    num1=num2;
+    num2=temp;
+  }
+ }
+</script>
+</div>
+</body>
+</html>
